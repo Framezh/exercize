@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		CB9B09351B9049F600E9243D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9B09341B9049F600E9243D /* main.m */; };
 		CB9B09381B9049F600E9243D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9B09371B9049F600E9243D /* AppDelegate.m */; };
-		CB9B093B1B9049F600E9243D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9B093A1B9049F600E9243D /* ViewController.m */; };
-		CB9B093E1B9049F600E9243D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB9B093C1B9049F600E9243D /* Main.storyboard */; };
 		CB9B09401B9049F600E9243D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB9B093F1B9049F600E9243D /* Images.xcassets */; };
 		CB9B09431B9049F600E9243D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB9B09411B9049F600E9243D /* LaunchScreen.xib */; };
 		CB9B094F1B9049F600E9243D /* TestGitSourceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9B094E1B9049F600E9243D /* TestGitSourceTests.m */; };
+		CB9B095B1B904B7200E9243D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9B09591B904B7200E9243D /* ViewController.m */; };
+		CB9B095C1B904B7200E9243D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB9B095A1B904B7200E9243D /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +32,14 @@
 		CB9B09341B9049F600E9243D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CB9B09361B9049F600E9243D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CB9B09371B9049F600E9243D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CB9B09391B9049F600E9243D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CB9B093A1B9049F600E9243D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CB9B093D1B9049F600E9243D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB9B093F1B9049F600E9243D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CB9B09421B9049F600E9243D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CB9B09481B9049F600E9243D /* TestGitSourceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestGitSourceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB9B094D1B9049F600E9243D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB9B094E1B9049F600E9243D /* TestGitSourceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestGitSourceTests.m; sourceTree = "<group>"; };
+		CB9B09581B904B7200E9243D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CB9B09591B904B7200E9243D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CB9B095A1B904B7200E9243D /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +83,9 @@
 			children = (
 				CB9B09361B9049F600E9243D /* AppDelegate.h */,
 				CB9B09371B9049F600E9243D /* AppDelegate.m */,
-				CB9B09391B9049F600E9243D /* ViewController.h */,
-				CB9B093A1B9049F600E9243D /* ViewController.m */,
-				CB9B093C1B9049F600E9243D /* Main.storyboard */,
+				CB9B09581B904B7200E9243D /* ViewController.h */,
+				CB9B09591B904B7200E9243D /* ViewController.m */,
+				CB9B095A1B904B7200E9243D /* ViewController.xib */,
 				CB9B093F1B9049F600E9243D /* Images.xcassets */,
 				CB9B09411B9049F600E9243D /* LaunchScreen.xib */,
 				CB9B09321B9049F600E9243D /* Supporting Files */,
@@ -199,8 +199,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB9B093E1B9049F600E9243D /* Main.storyboard in Resources */,
 				CB9B09431B9049F600E9243D /* LaunchScreen.xib in Resources */,
+				CB9B095C1B904B7200E9243D /* ViewController.xib in Resources */,
 				CB9B09401B9049F600E9243D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,7 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB9B093B1B9049F600E9243D /* ViewController.m in Sources */,
+				CB9B095B1B904B7200E9243D /* ViewController.m in Sources */,
 				CB9B09381B9049F600E9243D /* AppDelegate.m in Sources */,
 				CB9B09351B9049F600E9243D /* main.m in Sources */,
 			);
@@ -244,14 +244,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CB9B093C1B9049F600E9243D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CB9B093D1B9049F600E9243D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CB9B09411B9049F600E9243D /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -416,6 +408,7 @@
 				CB9B09541B9049F600E9243D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB9B09551B9049F600E9243D /* Build configuration list for PBXNativeTarget "TestGitSourceTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +417,7 @@
 				CB9B09571B9049F600E9243D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>CA31C735-FC15-4EBC-A4C7-1FCA22336BBD</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>TestGitSource</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>3309B8D229A0F078BC7214ACFE5185AE50940543</key>
 		<string>https://github.com/Framezh/exercize.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>TestGitSource/TestGitSource.xcodeproj/project.xcworkspace</string>
+	<string>TestGitSource/TestGitSource.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>3309B8D229A0F078BC7214ACFE5185AE50940543</key>
